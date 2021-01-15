@@ -14,7 +14,7 @@ RUN pip install --upgrade pip
 #RUN checkinstall -D -y --pkgversion --pkgname=python3-gdcm --pkgversion=1
 
 # DEB INSTALLATION
-RUN git clone --branch master https://github.com/HealthplusAI/python3-gdcm.git && cd python3-gdcm && dpkg -i build_1-1_amd64.deb && apt-get install -f
+RUN git clone --branch master https://github.com/FscoreLab/python3-gdcm.git && cd python3-gdcm && dpkg -i build_1-1_amd64.deb && apt-get install -f
 
 RUN cp /usr/local/lib/gdcm.py /usr/local/lib/python3.6/site-packages/.
 RUN cp /usr/local/lib/gdcmswig.py /usr/local/lib/python3.6/site-packages/.
