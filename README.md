@@ -28,7 +28,7 @@ python3-gdcm wrapper
 
 # INSTALLATION FROM .deb
 
-`git clone --branch master https://github.com/HealthplusAI/python3-gdcm.git && cd python3-gdcm && dpkg -i build_1-1_amd64.deb && apt-get install -f`
+`git clone --branch master https://github.com/FscoreLab/python3-gdcm.git && cd python3-gdcm && dpkg -i build_1-1_amd64.deb && apt-get install -f`
 
 `cp /usr/local/lib/gdcm.py /usr/local/lib/python3.6/site-packages/.`
 
